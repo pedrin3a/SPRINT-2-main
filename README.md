@@ -9,8 +9,7 @@ Abra o projeto no Visual Studio Code
 
 Instale a extensão Live Server (caso não tenha)
 
-Clique com botão direito no arquivo: 
-## login.html
+Clique com botão direito no arquivo: login.html
 
 clique em:
 
@@ -52,16 +51,3 @@ Criar uma interface moderna e interativa utilizando:
 -  Alertas e prompts interativos
 -  Troca dinâmica de telas
 - Manipulação de elementos com JavaScript
-
-# Este projeto deve ser executado usando o Live Server no VS Code.
-Abra o projeto no Visual Studio Code
-
-Instale a extensão Live Server (caso não tenha)
-
-Clique com botão direito no arquivo: login.html
-
-clique em:
-
-Open with Live Server
-
-O navegador irá abrir automaticamente
