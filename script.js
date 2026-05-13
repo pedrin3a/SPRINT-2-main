@@ -76,3 +76,13 @@ filterBtn.addEventListener("click", () => {
     }
 
 });
+
+// GALERIA
+
+galleryBtn.addEventListener("click", () => {
+
+    const nome = prompt("Digite seu nome:");
+
+    alert("Bem-vindo à galeria, " + nome + "!");
+
+});
