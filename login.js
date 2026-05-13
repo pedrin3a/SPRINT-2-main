@@ -1,4 +1,15 @@
-// VALIDAÇÃO 
+const loginBtn =
+document.getElementById("loginBtn");
+
+loginBtn.addEventListener("click", () => {
+
+    const user =
+    document.getElementById("user").value;
+
+    const password =
+    document.getElementById("password").value;
+
+    // VALIDAÇÃO
 
     if(user === "" || password === ""){
 
@@ -9,4 +20,10 @@
     else{
 
         alert("Login realizado com sucesso!");
-}
+
+        // REDIRECIONAR
+
+        window.location.href = "index.html";
+    }
+
+});
