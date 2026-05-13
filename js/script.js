@@ -49,7 +49,7 @@ scanBtn.addEventListener("click", () => {
     cameraImage.style.filter = "none";
 
     cameraImage.src =
-    "https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=1200&auto=format&fit=crop";
+    "https://st.depositphotos.com/1777193/3260/i/950/depositphotos_32603753-stock-photo-documents-on-the-table.jpg";
 
 });
 
