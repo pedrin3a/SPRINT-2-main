@@ -21,3 +21,12 @@ cameraApp.addEventListener("click", () => {
     cameraScreen.style.display = "flex";
 
 });
+
+// VOLTAR
+
+backBtn.addEventListener("click", () => {
+
+    cameraScreen.style.display = "none";
+    homeScreen.style.display = "block";
+
+});
