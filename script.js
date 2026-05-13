@@ -86,3 +86,30 @@ galleryBtn.addEventListener("click", () => {
     alert("Bem-vindo à galeria, " + nome + "!");
 
 });
+
+// MINI GALERIA
+
+const images = [
+
+    "https://images.unsplash.com/photo-1506744038136-46273834b3fb?q=80&w=1200&auto=format&fit=crop",
+
+    "https://images.unsplash.com/photo-1493246318656-5bfd4cfb29b5?q=80&w=1200&auto=format&fit=crop",
+
+    "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1200&auto=format&fit=crop"
+
+];
+
+let current = 0;
+
+setInterval(() => {
+
+    current++;
+
+    if(current >= images.length){
+
+        current = 0;
+    }
+
+    slide.src = images[current];
+
+}, 3000);
