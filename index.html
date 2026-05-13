@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> JOVI V70</title>
+    <link rel="stylesheet" href="css/style.css">>
+</head>
+<body>
+
+    <main class="phone">
+
+        <header class="status-bar">
+            <span>09:41</span>
+            <span>📶 🔋</span>
+        </header>
+
+        <!-- HOME -->
+
+        <section id="homeScreen" class="home-screen">
+
+            <h1></h1>
+
+            <section class="apps-grid">
+
+                <article class="app">
+                    <div class="icon">🎵</div>
+                    <p>Música</p>
+                </article>
+
+                <article class="app">
+                    <div class="icon">🌐</div>
+                    <p>Browser</p>
+                </article>
+
+                <article class="app">
+                    <div class="icon">💬</div>
+                    <p>Chat</p>
+                </article>
+
+                <article class="app">
+                    <div class="icon">🎮</div>
+                    <p>Games</p>
+                </article>
+
+                <article class="app">
+                    <div class="icon">📁</div>
+                    <p>Arquivos</p>
+                </article>
+
+                <article class="app">
+                    <div class="icon">⚙️</div>
+                    <p>Config</p>
+                </article>
+
+                <article class="app" id="cameraApp">
+                    <div class="icon camera-icon">📷</div>
+                    <p>Câmera</p>
+                </article>
+
+            </section>
+
+        </section>
+
+        <!-- CAMERA -->
+
+        <section id="cameraScreen" class="camera-screen">
+
+            <section class="camera-top">
+
+                <button id="backBtn">←</button>
+
+                <h2>Camera</h2>
+
+                <button>⚙</button>
+
+            </section>
+
+            <section class="camera-preview">
+
+                <img
+                    id="cameraImage"
+                    src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1200&auto=format&fit=crop"
+                    alt="camera"
+                >
+
+                <div class="scanner-frame"></div>
+
+            </section>
+
+            <section class="controls">
+
+                <button id="captureBtn">Foto</button>
+
+                <button id="scanBtn">Digitalizar</button>
+
+                <button id="filterBtn">Filtro</button>
+
+                <button id="galleryBtn">Galeria</button>
+
+            </section>
+
+            <div class="camera-button"></div>
+
+            <section class="gallery">
+
+                <img
+                    id="slide"
+                    src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?q=80&w=1200&auto=format&fit=crop"
+                    alt=""
+                >
+
+            </section>
+
+        </section>
+
+    </main>
+
+    <script src="js/script.js"></script>    
+
+</body>
+</html>
