@@ -30,3 +30,49 @@ backBtn.addEventListener("click", () => {
     homeScreen.style.display = "block";
 
 });
+
+    scannerFrame.style.display = "none";
+
+    cameraImage.style.filter = "none";
+
+    cameraImage.src =
+    "https://images.unsplash.com/photo-1506744038136-46273834b3fb?q=80&w=1200&auto=format&fit=crop";
+
+
+
+// DIGITALIZAR
+
+scanBtn.addEventListener("click", () => {
+
+    scannerFrame.style.display = "block";
+
+    cameraImage.style.filter = "none";
+
+    cameraImage.src =
+    "https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=1200&auto=format&fit=crop";
+
+});
+
+// FILTRO
+
+let filtro = false;
+
+filterBtn.addEventListener("click", () => {
+
+    scannerFrame.style.display = "none";
+
+    if(filtro === false){
+
+        cameraImage.style.filter = "sepia(100%)";
+
+        filtro = true;
+    }
+
+    else{
+
+        cameraImage.style.filter = "none";
+
+        filtro = false;
+    }
+
+});
